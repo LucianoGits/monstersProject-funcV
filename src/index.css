@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+      to left,
+      rgba(7, 27, 82, 1) 0%,
+      rgba(0, 128, 128, 1) 100%
+    )
+    no-repeat fixed center;
+
+  text-align: center;
+}
+.app-title {
+  font-family: 'Bungee Spice', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 2rem;
+}
